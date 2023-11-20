@@ -24,7 +24,7 @@ func TestOperations(t *testing.T) {
 		exp []float64
 	}{
 		{"Sum", sum, []float64{300, 85.927, -30, 436}},
-		{"Avg", avg, []float64{37.5, 6.609769230769231, -15, 72.6666666666}},
+		{"Avg", avg, []float64{37.5, 6.609769230769231, -15, 72.66666666666667}},
 	}
 
 	// Operations tests execution
